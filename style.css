@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* background-color: black; */
+  background: url('https://images.pexels.com/photos/6331082/pexels-photo-6331082.jpeg?auto=compress&cs=tinysrgb&w=600');
+  background-size:100%;
+  
+}
+
+.container {
+  max-width: fit-content;
+  border: solid rgb(252, 190, 211) 2px;
+  background-color: black;
+  background: url('https://images.pexels.com/photos/1509534/pexels-photo-1509534.jpeg?auto=compress&cs=tinysrgb&w=600');
+  width: 100%;
+  position: sticky;
+  top: 30vh;
+  left: 30%;
+  padding: 100px;
+  border-radius: 50px;
+  box-shadow: pink 1px 2px 2px 2px;
+}
+
+.container:hover{
+    background-color: white;
+    color: white;
+    background: url("https://media.istockphoto.com/id/1337094115/photo/orange-podium-and-minimal-abstract-background-for-halloween.jpg?b=1&s=170667a&w=0&k=20&c=inlmwtPsgFTAmtCTrjFWjop7Tuv1fhAVaPS-ZvG0Sxw=");
+}
+.container:hover button{
+    color: white;
+    border: black solid 2px;
+    background-color: black;
+   
+}
+
+button {
+  padding: 8px 12px;
+  margin: 5px 4px;
+  border-radius: 8px;
+  font-size: larger;
+  font-weight: bolder;
+  
+}
+
+
+.secondC{
+    margin-top: 5px ;
+}
+
+header span{
+  display: flex;
+justify-content: center;
+color: black;
+font-size: 35px;
+font-weight: bold;
+margin: 8px 0;
+}
+
+
